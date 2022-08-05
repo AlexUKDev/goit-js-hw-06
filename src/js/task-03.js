@@ -14,3 +14,23 @@ const images = [
 ];
 
 
+const ulRef = document.querySelector('.gallery');
+// console.log(ulRef)
+
+const htmlString = images.map(({ url, alt }) => {
+  return `<li><img src="${url}" alt="${alt}" class="galleryItem"></li>`;
+}).join("");
+
+console.log(htmlString);
+
+ulRef.insertAdjacentHTML('afterbegin', htmlString);
+
+
+
+
+
+
+// "beforebegin" - перед elem
+// "afterbegin" - внутри elem, перед всеми детьми
+// "beforeend" - внутри elem, после всех детей
+// "afterend" - после elem
