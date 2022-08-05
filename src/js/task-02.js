@@ -19,7 +19,6 @@ ingredients.forEach((el) => {
   createEl.textContent = el;
   createEl.classList = 'item';
   arrOfEl.push(createEl);
-  
 });
 
 // console.log(arrOfEl);
@@ -29,17 +28,10 @@ ulEl.append(...arrOfEl)
 
 
 
-
-
-
-
-
 // const createEl = document.createElement('li')
 
 // createEl.textContent = ingredients[0]
 // console.log(createEl)
-
-
 
 
 // ***********
