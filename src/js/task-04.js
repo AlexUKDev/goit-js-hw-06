@@ -37,12 +37,12 @@ let counterValue = 0;
 // });
 
 function onDecrementBtnClick() {
-  counterValue += 1;
+  counterValue -= 1;
   valueRef.textContent = counterValue;
 };
 
 const onIncrementBtnClick = () => {
-  counterValue -= 1;
+  counterValue += 1;
   valueRef.textContent = counterValue;
 };
 
@@ -52,12 +52,12 @@ incrementBtnRef.addEventListener('click', onIncrementBtnClick);
 
 
 
-// const onIncrementBtnClick = function () {
-//   counterValue += 1;
+// const onDecrementBtnClick = () => {
+//   counterValue -= 1;
 //   valueRef.textContent = counterValue;
 // };
 
-// const onDecrementBtnClick = () => {
-//   counterValue -= 1;
+// const onIncrementBtnClick = function () {
+//   counterValue += 1;
 //   valueRef.textContent = counterValue;
 // };
