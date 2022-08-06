@@ -1,6 +1,5 @@
 
 const formRef = document.querySelector("form.login-form");
-console.log(formRef)
 
 // const emailInputRef = formRef.querySelector('.login-form input[type="email"]');
 // console.log(emailInputRef)
@@ -9,7 +8,6 @@ console.log(formRef)
 // console.log(passwordInputRef)
 
 const formBtnRef = formRef.querySelector('button[type="submit"]');
-console.log(formBtnRef)
 
 const user = { };
 
