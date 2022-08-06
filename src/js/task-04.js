@@ -36,28 +36,28 @@ let counterValue = 0;
 //   valueRef.textContent = counterValue;
 // });
 
-const callBackIncrement = function () {
+function onDecrementBtnClick() {
   counterValue += 1;
   valueRef.textContent = counterValue;
 };
 
-const callBackDecrement = () => {
+const onIncrementBtnClick = () => {
   counterValue -= 1;
   valueRef.textContent = counterValue;
 };
 
 
-decrementBtnRef.addEventListener('click', callBackDecrement);
-incrementBtnRef.addEventListener('click', callBackIncrement);
+decrementBtnRef.addEventListener('click', onDecrementBtnClick);
+incrementBtnRef.addEventListener('click', onIncrementBtnClick);
 
 
 
-// const callBackIncrement = function () {
+// const onIncrementBtnClick = function () {
 //   counterValue += 1;
 //   valueRef.textContent = counterValue;
 // };
 
-// const callBackDecrement = () => {
+// const onDecrementBtnClick = () => {
 //   counterValue -= 1;
 //   valueRef.textContent = counterValue;
 // };
