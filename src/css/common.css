@@ -32,7 +32,7 @@ button {
   padding: 0;
 }
 .galleryItem {
-  height: 350px;
+  height: 280px;
   border-radius: 10px;
 }
 .galleryItem:hover{
