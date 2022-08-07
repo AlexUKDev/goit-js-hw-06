@@ -40,3 +40,11 @@ button {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
   
 }
+
+#boxes{
+  display: inline-flex;
+  padding: 10px;
+}
+.newBoxes {
+  justify-content: space-between;
+}
