@@ -3,28 +3,28 @@ function getRandomHexColor() {
 }
 
 const containerOfBoxesRef = document.querySelector("div#boxes");
-console.log("containerOfBoxesRef: ", containerOfBoxesRef)
+// console.log("containerOfBoxesRef: ", containerOfBoxesRef)
 
 const controlsRef = document.querySelector("div#controls");
-console.log("controlsRef: ",controlsRef)
+// console.log("controlsRef: ",controlsRef)
 
 const inputAmountRef = document.querySelector('input[type="number"]');
-console.log("inputAmountRef: ", inputAmountRef)
-console.dir(inputAmountRef.value)
+// console.log("inputAmountRef: ", inputAmountRef)
+// console.dir(inputAmountRef.value)
 
 const createBtnRef = document.querySelector('button[data-create]');
-console.log("createBtnRef: ", createBtnRef)
+// console.log("createBtnRef: ", createBtnRef)
 
 const destroyBtnRef = document.querySelector('button[data-destroy]');
-console.log("destroyBtnRef: ", destroyBtnRef)
+// console.log("destroyBtnRef: ", destroyBtnRef)
 
 let amount = 0;
 
 
 function onInputAmountChange() {
   amount = inputAmountRef.value;
-return amount
-  console.log("after onInputAmountChange: ", amount)
+  return amount
+  // console.log("after onInputAmountChange: ", amount)
 }
 
 inputAmountRef.addEventListener('change', onInputAmountChange)
@@ -52,7 +52,7 @@ function createBoxes(amount) {
     boxSize = boxSize + 10;
 
     newCollectionOfEl.push(boxEl)
-    console.log("boxEl: ", boxEl)
+    // console.log("boxEl: ", boxEl)
 
   }
 
