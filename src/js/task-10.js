@@ -42,7 +42,7 @@ function createBoxes(amount) {
 
     boxEl.style.width = `${boxSize}px`;
     boxEl.style.height = `${boxSize}px`;
-    boxEl.classList = ".newBoxes";
+    boxEl.classList = "newBoxes";
 
     let newColor = getRandomHexColor();
     boxEl.style.backgroundColor = newColor;

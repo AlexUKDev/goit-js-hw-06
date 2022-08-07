@@ -42,9 +42,11 @@ button {
 }
 
 #boxes{
+  flex-wrap: wrap;
   display: inline-flex;
   padding: 10px;
 }
 .newBoxes {
   justify-content: space-between;
+  margin-right: 5px;
 }
